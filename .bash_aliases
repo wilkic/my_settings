@@ -5,6 +5,9 @@ alias f='thunar . &'
 # Mint
 #alias f='nemo . &'
 
+# List by date modified, reverse order, nice outputs
+alias lh='ls -ltrh'
+
 # Ignore externals with svn status
 alias svnst='svn status --ignore-externals'
 
