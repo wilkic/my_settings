@@ -5,8 +5,9 @@ alias f='thunar . &'
 # Mint
 #alias f='nemo . &'
 
-# List by date modified, reverse order, nice outputs
-alias lh='ls -ltrh'
+# List with just file size and time and name
+# Sorted by time modified
+alias lh="ls -actrhog --color=always | sed -re 's/[^ ]* //'"
 
 # Ignore externals with svn status
 alias svnst='svn status --ignore-externals'
