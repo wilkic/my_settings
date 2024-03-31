@@ -30,3 +30,13 @@ function keep(){
     f="rm $f)";
     $f
 }
+
+## open the 'space' virtual environment
+#alias space='source /home/chris/git/space/venv/bin/activate'
+#
+## ... and... do it by default
+#source /home/chris/git/space/venv/bin/activate
+#
+##alias gmat='cd ~/GMAT/R2022a/bin;./GMAT_Beta;'
+#alias gmat='/home/chris/GMAT/R2022a/bin/GMAT_Beta;'
+
