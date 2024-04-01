@@ -1,5 +1,5 @@
 
-	sudo apt update
+sudo apt update
 sudo apt upgrade
 
 sudo apt install xfce4
@@ -13,6 +13,10 @@ $ git config --global alias.st status
 $ git config --global core.editor "vim"
 $ git config --global user.email wilkic@gmail.com
 $ git config --global user.name chris
+$ git config --global diff.tool meld
+$ git config --global difftool.prompt false
+$ git config --global merge.tool meld
+$ git config --global mergetool.prompt false
 
 sudo apt install vim
 sudo apt install meld

@@ -1,0 +1,15 @@
+[alias]
+	br = branch
+	ci = commit
+	st = status
+[core]
+	editor = vim
+[user]
+	email = wilkic@gmail.com
+	name = chris
+[difftool]
+	prompt = false
+[merge]
+	tool = meld
+[mergetool]
+	prompt = false~
